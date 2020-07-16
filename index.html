@@ -6,57 +6,24 @@
     <meta name="description" content="Welcome to my Kakao Clone" />
     <title>This is my title</title>
     <style>
-      body,
-      html {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        height: 400%;
+      .box {
         background-color: red;
+        font-size: 40px;
       }
-      /* #boxOne {
-        height: 300px;
-        width: 300px;
-        background-color: yellow;
-        position: static;
+      .box:hover {
+        background-color: pink;
       }
-      #boxTwo {
-        height: 300px;
-        width: 90%;
+      .box:active {
         background-color: green;
-        position: fixed; */
-
-      .abs-box {
-        width: 400px;
-        height: 400px;
-        background-color: yellow;
-        position: relative;
       }
-      .abs-child {
-        width: 100px;
-        height: 100px;
-        background-color: green;
-        position: absolute;
-        right: 10px;
-        top: 10px;
+      .box:focus {
+        background-color: blue;
       }
     </style>
   </head>
+
   <body>
-    <div class="abs-box">
-      <div class="abs-child"></div>
-    </div>
-    <!-- <div id="boxOne">
-      <div class="box-child"></div>
-    </div>
-    <div class="" id="boxTwo">
-      <div class="box-child"></div>
-    </div>
-    <div class="box">
-      <div class="inside-box"></div>
-    </div> -->
+    <textarea class="box">lalalalalala</textarea>
   </body>
 </html>
 
