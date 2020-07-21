@@ -1,3 +1,3 @@
 # kakao_clone
 
-Kakao Desktop App Clone
+Kakao talk clone

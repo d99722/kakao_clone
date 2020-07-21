@@ -1,23 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="author" content="d99722" />
-    <meta name="description" content="Welcome to my Kakao Clone" />
-    <title>Transformations</title>
-    <style>
-      body {
-        background-color: green;
-      }
-      @media screen and (min-width: 320px) and (max-width: 640px) {
-        body {
-          background-color: blue;
-        }
-      }
-    </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/0db669c2e7.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Chats | Kakao Clone</title>
   </head>
-
-  <body></body>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="far fa-clock"></i>
+        <i class="fas fa-volume-up"></i>
+        <i class="fas fa-wifi"></i>
+        <span class="status-bar__batterylevel">100%</span>
+        <i class="fas fa-battery-full"></i>
+      </div>
+    </div>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">Chats</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="far fa-comment"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+    <main class="chats">
+      <ul class="chats__list">
+        <li class="chats__chat">
+          <a href="chat.html">
+            <div class="chat__column">
+              <img class="chat__avatar g-avatar" src="images/avatar.png" />
+              <div class="chat__content">
+                <span class="chat__username">
+                  Lynn
+                </span>
+                <span class="chat__preview">Going home</span>
+              </div>
+            </div>
+            <div class="chat__column">
+              <span class="chat__timestamp">Yesterday</span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </main>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link">
+            <i class="far fa-user"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </body>
 </html>
-
-<!-- ID : 고유한 값, Class : 반복되는 속성 -->
