@@ -1,0 +1,83 @@
+.mainbook {
+  margin: 20px;
+}
+
+.mainbook-title {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.mainbook-sub {
+  display: flex;
+}
+
+.mainbook-sub-picture > img {
+  width: 120px;
+  height: 165px;
+  border-radius: 10px;
+  margin-right: 15px;
+}
+
+.mainbook-sub-text > div {
+  margin-bottom: 5px;
+}
+
+.mainbook-sub-text-title {
+  font-weight: 600;
+}
+
+.mainbook-sub-text-sub {
+  opacity: 0.5;
+}
+
+.yellowstar {
+  color: #ffce33;
+}
+
+.graystar {
+  color: #ededed;
+}
+
+.mainbook-sub-text-btns {
+  display: flex;
+}
+
+.mainbook-sub-text-btn {
+  background-color: #f7f7f7;
+  width: 70px;
+  height: 25px;
+  margin-right: 10px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.mainbook-sub-text-colorbtns {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.mainbook-sub-text-leftbtn {
+  background-color: #ffce33;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.mainbook-sub-text-rightbtn {
+  background-color: #0d0d0d;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  width: 100px;
+}

@@ -1,0 +1,14 @@
+.artist {
+  text-align: center;
+}
+
+.artist-name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.artist-genre {
+  font-size: 15px;
+  opacity: 0.5;
+}
