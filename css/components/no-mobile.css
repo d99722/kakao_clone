@@ -1,7 +1,6 @@
 #no-mobile,
 #no-landscape {
   position: absolute;
-  z-index: 98;
   height: 100vh;
   background-color: var(--yellow);
   width: 100vw;
@@ -13,18 +12,22 @@
   top: 0;
 }
 
+#no-landscape {
+  z-index: 98;
+}
+
 #no-mobile {
   z-index: 99;
 }
 
-@media screen and (max-width: 650px) {
-  #no-mobile {
+@media screen and (orientation: portrait) {
+  #no-landscape {
     display: none;
   }
 }
 
-@media screen and (orientation: portrait) {
-  #no-landscape {
+@media screen and (max-width: 650px) {
+  #no-mobile {
     display: none;
   }
 }
