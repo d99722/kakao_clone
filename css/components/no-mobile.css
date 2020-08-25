@@ -1,7 +1,7 @@
 #no-mobile,
 #no-landscape {
   position: absolute;
-  z-index: 99;
+  z-index: 98;
   height: 100vh;
   background-color: var(--yellow);
   width: 100vw;
@@ -11,6 +11,10 @@
   font-size: 32px;
   font-weight: 600;
   top: 0;
+}
+
+#no-mobile {
+  z-index: 99;
 }
 
 @media screen and (max-width: 650px) {
