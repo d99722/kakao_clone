@@ -1,0 +1,31 @@
+.main-screen {
+  display: flex;
+}
+
+.main-left {
+  width: 130px;
+  height: 130px;
+  background-color: #ffbd11;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.main-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-right-title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.main-right-sub {
+  font-weight: 400;
+}

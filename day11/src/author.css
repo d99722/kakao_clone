@@ -1,0 +1,29 @@
+.author {
+  margin: 20px;
+}
+
+.author-title {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.author-sub {
+  display: flex;
+}
+
+.author-sub-img > img {
+  width: 120px;
+  height: 140px;
+  border-radius: 10px;
+  margin-right: 25px;
+}
+
+.author-sub-sub-title {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.author-sub-sub-sub {
+  opacity: 0.5;
+}

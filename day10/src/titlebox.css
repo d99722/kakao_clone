@@ -1,0 +1,9 @@
+.title-box {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.title-right {
+  color: white;
+}
